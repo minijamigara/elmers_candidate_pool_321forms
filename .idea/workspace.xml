@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f7c4f7-c11e-4da1-b2ff-5637f36ad9f2" name="Changes" comment="Navigation test implemeted">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ApplicantPoolExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NewHireDataPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/newHireData/NewHireDataTest.java" afterDir="false" />
+    <list default="true" id="75f7c4f7-c11e-4da1-b2ff-5637f36ad9f2" name="Changes" comment="New hire data upload test implemented">
+      <change afterPath="$PROJECT_DIR$/src/test/java/applicantPoolExecution/ApplicantPoolExecutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ApplicantPoolExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ApplicantPoolExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/NewHireDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/NewHireDataPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,25 @@
       <recent name="E:\QA Proj\Elmers\Elmers_candidate_pool\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.NewHireDataTest.testFileUpload (2)">
+  <component name="RunManager" selected="TestNG.ApplicantPoolExecutionTest.testApplicantExecutableTask">
+    <configuration name="ApplicantPoolExecutionTest.testApplicantExecutableTask" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Elmers_candidate_pool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="applicantPoolExecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="applicantPoolExecution" />
+      <option name="MAIN_CLASS_NAME" value="applicantPoolExecution.ApplicantPoolExecutionTest" />
+      <option name="METHOD_NAME" value="testApplicantExecutableTask" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NewHireDataTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Elmers_candidate_pool" />
       <extension name="coverage">
@@ -76,24 +94,6 @@
       <option name="PACKAGE_NAME" value="newHireData" />
       <option name="MAIN_CLASS_NAME" value="newHireData.NewHireDataTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewHireDataTest.testFileUpload (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Elmers_candidate_pool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newHireData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="newHireData" />
-      <option name="MAIN_CLASS_NAME" value="newHireData.NewHireDataTest" />
-      <option name="METHOD_NAME" value="testFileUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ApplicantPoolExecutionTest.testApplicantExecutableTask" />
         <item itemvalue="TestNG.NewHireDataTest.testFileUpload (2)" />
         <item itemvalue="TestNG.NewHireDataTest.testFileUpload" />
         <item itemvalue="TestNG.NewHireDataTest (1)" />
         <item itemvalue="TestNG.NewHireDataTest" />
-        <item itemvalue="TestNG.NewHireDataTest.testFileUpload (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724483866731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New hire data upload test implemented">
+      <created>1724565145622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724565145622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Navigation test implemeted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation test implemeted" />
+    <MESSAGE value="New hire data upload test implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="New hire data upload test implemented" />
   </component>
 </project>

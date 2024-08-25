@@ -18,7 +18,7 @@ public class NewHireDataPage {
     private By fileDescription = By.id("csvFileName");
     private By fileUploadButton = By.id("attachmentFile");
     private By modalSaveButton = By.id("modal-save-button");
-    private By modal = By.cssSelector("#modal-holder > div > div"); // Replace with the correct modal CSS selector
+    private By modal = By.cssSelector("#modal-holder > div > div");
 
     // Constructor
     public NewHireDataPage(WebDriver driver) {
