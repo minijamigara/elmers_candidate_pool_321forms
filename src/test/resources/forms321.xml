@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="forms321">
+    <test name="forms321">
+        <classes>
+            <!-- The order of classes here determines the order of test execution -->
+            <class name="forms321.login.LoginTest"/>
+            <class name="forms321.signInCode.SignInCodeTest"/>
+            <class name="forms321.employeementDashboard.EmployeementDashboardTest"/>
+            <class name="forms321.basicInfo.BasicInfoTest"/>
+            <class name="forms321.formList.FormListTest"/>
+        </classes>
+    </test>
+</suite>

@@ -51,7 +51,7 @@ public class NewHireDataPage {
 
         // Enter the file description
         WebElement descriptionField = wait.until(ExpectedConditions.visibilityOfElementLocated(fileDescription));
-        descriptionField.sendKeys("Test");
+        descriptionField.sendKeys("Test2");
 
         // Click the save button in the modal
         csvUpload();

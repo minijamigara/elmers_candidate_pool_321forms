@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="candidatePool">
+    <test name="candidatePool">
+        <classes>
+            <!-- The order of classes here determines the order of test execution -->
+            <class name="candidatePool.login.LoginTest"/>
+            <class name="candidatePool.navigation.NavigationTest"/>
+            <class name="candidatePool.newHireData.NewHireDataTest"/>
+            <class name="candidatePool.applicantPoolExecution.ApplicantPoolExecutionTest"/>
+            <class name="candidatePool.formsExecution.FormsExecutionTest"/>
+        </classes>
+    </test>
+</suite>
