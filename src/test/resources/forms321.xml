@@ -11,6 +11,10 @@
             <class name="forms321.formList.FormListTest"/>
             <class name="forms321.generalInfo.GeneralInfoPageTest"/>
             <class name="forms321.uniformInfo.UniformInfoTest"/>
+            <class name="forms321.basicInfo2.BasicInfo2PageTest"/>
+            <class name="forms321.basicInfo3.BasicInfo3PageTest"/>
+            <class name="forms321.i9.I9PageTest"/>
+            <class name="forms321.w4.W4PageTest"/>
         </classes>
     </test>
 </suite>

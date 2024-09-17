@@ -4,7 +4,6 @@ import forms321.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BasicInfo2Page;
-import pages.GeneralInfoPage;
 
 public class BasicInfo2PageTest extends BaseTest {
 
@@ -58,6 +57,26 @@ public class BasicInfo2PageTest extends BaseTest {
 
         Assert.assertTrue(basicInfo2Page.checkNullLicenseIssueState() == null || basicInfo2Page.checkNullLicenseIssueState().trim().isEmpty(),
                 "DL License Issue State is not null or empty. Value: " + basicInfo2Page.checkNullLicenseIssueState());
+    }
+
+    @Test(priority = 6)
+    public void testDLExpireDateIsSelected() {
+        BasicInfo2Page basicInfo2Page = new BasicInfo2Page(driver);
+
+        // Check if the DLExpireDate date picker has a selected date
+        boolean isDateSelected = basicInfo2Page.isDLExpireDateSelected();
+
+        // Assert if a date is selected
+        Assert.assertTrue(isDateSelected, "DL Expire Date is not selected.");
+    }
+
+    @Test(priority = 7)
+    public void clickContinueButton() {
+        // Use the SignInCodePage object
+        BasicInfo2Page basicInfo2Page = new BasicInfo2Page(driver);
+
+        // Navigate to the desired page
+        basicInfo2Page.clickContinueButton();
     }
 
 

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -105,5 +106,19 @@ public class BasicInfo2Page {
         return selectedValue;
     }
 
+    public boolean isDLExpireDateSelected() {
+        WebElement dlExpireDateField = driver.findElement(DLExpireDate);
+        String expireDateValue = dlExpireDateField.getAttribute("value");
+
+        // If the value is null or empty, the date is not selected
+        return expireDateValue != null && !expireDateValue.trim().isEmpty();
+    }
+
+    public GeneralInfoPage clickContinueButton() {
+        //wait.until(ExpectedConditions.elementToBeClickable(agreeBtn)).click();
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(continueBtn));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        return new GeneralInfoPage(driver);
+    }
 
 }

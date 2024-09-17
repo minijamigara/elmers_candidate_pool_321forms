@@ -4,25 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d928b846-215e-4c9d-aff7-8dd45d9f106c" name="Changes" comment="New hire data upload test implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasicInfo2Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GeneralInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/UniformInfoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/basicInfo2/BasicInfo2PageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/generalInfo/GeneralInfoPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/uniformInfo/UniformInfoTest.java" afterDir="false" />
+    <list default="true" id="d928b846-215e-4c9d-aff7-8dd45d9f106c" name="Changes" comment="321 forms tests implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasicInfo3Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/I9Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MichiganWithholdingInformationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/W4Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/basicInfo3/BasicInfo3PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/i9/I9PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/michiganWithholdingInformation/MichiganWithholdingInformationPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/w4/W4PageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasicInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasicInfoPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EmploymentDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EmploymentDashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormsExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormsExecutionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/formsExecution/FormsExecutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/formsExecution/FormsExecutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/login/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/navigation/NavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/navigation/NavigationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/forms321/basicInfo/BasicInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forms321/basicInfo/BasicInfoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/forms321/formList/FormListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forms321/formList/FormListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasicInfo2Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasicInfo2Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/forms321/basicInfo2/BasicInfo2PageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forms321/basicInfo2/BasicInfo2PageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/forms321.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/forms321.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +100,15 @@
       <option name="presentableId" value="Default" />
       <updated>1726415090770</updated>
     </task>
+    <task id="LOCAL-00001" summary="321 forms tests implemented">
+      <option name="closed" value="true" />
+      <created>1726548931908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726548931908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="321 forms tests implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="321 forms tests implemented" />
   </component>
 </project>
