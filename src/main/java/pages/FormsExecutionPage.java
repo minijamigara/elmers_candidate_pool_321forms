@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class FormsExecution {
+public class FormsExecutionPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -21,7 +21,7 @@ public class FormsExecution {
     private By modal = By.cssSelector("#taskExecutionModal");
 
     // Constructor
-    public FormsExecution(WebDriver driver) {
+    public FormsExecutionPage(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }

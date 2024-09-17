@@ -15,6 +15,6 @@ public class NavigationTest extends BaseTest {
         navigationPage.navigateToNewHireDataUpload();
 
         // Add assertions or further actions after navigation
-        Assert.assertEquals(driver.getCurrentUrl(), "https://elmb1-lts-atom.orangehrm.com/client/#/pim/applicant_pool-csv");  // Replace with the actual URL
+        Assert.assertEquals(driver.getCurrentUrl(), "https://elmmbl-lts-atom.orangehrm.com/client/#/pim/applicant_pool-csv");  // Replace with the actual URL
     }
 }

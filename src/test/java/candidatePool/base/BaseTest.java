@@ -22,15 +22,14 @@ public class BaseTest {
             driver.manage().window().maximize();
 
             // Initialize the LoginPage object
-            loginPage = new LoginPage(driver);
-
+            loginPage = new LoginPage(driver);https://elmmbl-lts-atom.orangehrm.com/
             // Now you can call goHome() safely
             goHome();
         }
     }
 
     public void goHome() {
-        driver.get("https://elmb1-lts-atom.orangehrm.com/");
+        driver.get("https://elmmbl-lts-atom.orangehrm.com/");
     }
 
     @AfterSuite

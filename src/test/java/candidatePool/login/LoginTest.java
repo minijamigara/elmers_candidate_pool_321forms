@@ -10,11 +10,11 @@ public class LoginTest extends BaseTest {
     @Test
     public void testSuccessfulLogin() {
         loginPage.setUsername("_ohrmSysAdmin_")
-                .setPassword("admin");
+                .setPassword("admin@OHRM123");
 
         DashboardPage dashboardPage = loginPage.clickLoginButton();
 
         // Verify that the user is redirected to the correct dashboard URL after login
-        Assert.assertEquals(driver.getCurrentUrl(), "https://elmb1-lts-atom.orangehrm.com/client/#/dashboard");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://elmmbl-lts-atom.orangehrm.com/client/#/dashboard");
     }
 }

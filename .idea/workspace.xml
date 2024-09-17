@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f7c4f7-c11e-4da1-b2ff-5637f36ad9f2" name="Changes" comment="New hire data upload test implemented">
+    <list default="true" id="d928b846-215e-4c9d-aff7-8dd45d9f106c" name="Changes" comment="New hire data upload test implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasicInfo2Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GeneralInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/UniformInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/basicInfo2/BasicInfo2PageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/generalInfo/GeneralInfoPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forms321/uniformInfo/UniformInfoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasicInfoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasicInfoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EmploymentDashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/EmploymentDashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FormsExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FormsExecutionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/formsExecution/FormsExecutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/formsExecution/FormsExecutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/login/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/candidatePool/navigation/NavigationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/candidatePool/navigation/NavigationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/forms321/basicInfo/BasicInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forms321/basicInfo/BasicInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/forms321/formList/FormListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/forms321/formList/FormListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/forms321.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/forms321.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +33,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -23,112 +40,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "minijamigara"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;minijamigara&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/minijamigara/elmers_candidate_pool_321forms.git",
-    "accountId": "787586f3-669a-4e47-8d7a-02ca2b4bc750"
-  }
-}]]></component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2krsk3UjnAZV9blrrxwnHLd7vsu" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/minijamigara/elmers_candidate_pool_321forms.git&quot;,
+    &quot;accountId&quot;: &quot;787586f3-669a-4e47-8d7a-02ca2b4bc750&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2m766NJuTah5c2NHgWM5TXs21Vi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/candidatePool.xml.executor": "Run",
-    "TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/forms321.xml.executor": "Run",
-    "TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/testng.xml.executor": "Run",
-    "TestNG.EmployeementDashboardTest.executor": "Run",
-    "TestNG.LoginTest.testSuccessfulLogin.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/resources",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/candidatePool.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/forms321.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="login" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="E:\QA Proj\Elmers\Elmers_candidate_pool\resources" />
-    </key>
-  </component>
+}</component>
   <component name="RunManager" selected="TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/forms321.xml">
-    <configuration name="EmployeementDashboardTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Elmers_candidate_pool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="forms321.employeementDashboard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="forms321.employeementDashboard" />
-      <option name="MAIN_CLASS_NAME" value="forms321.employeementDashboard.EmployeementDashboardTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Elmers_candidate_pool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewHireDataTest.testSuccessfullFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Elmers_candidate_pool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="newHireData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="newHireData" />
-      <option name="MAIN_CLASS_NAME" value="newHireData.NewHireDataTest" />
-      <option name="METHOD_NAME" value="testSuccessfullFileUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/candidatePool.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Elmers_candidate_pool" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/candidatePool.xml" />
@@ -149,58 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Elmers_candidate_pool" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/forms321.xml" />
-        <item itemvalue="TestNG.EmployeementDashboardTest" />
         <item itemvalue="TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/candidatePool.xml" />
-        <item itemvalue="TestNG./home/administrator/Selenium Projects/Elmers/Elmer-s_candidate_pool/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="75f7c4f7-c11e-4da1-b2ff-5637f36ad9f2" name="Changes" comment="" />
-      <created>1724053171403</created>
+      <changelist id="d928b846-215e-4c9d-aff7-8dd45d9f106c" name="Changes" comment="New hire data upload test implemented" />
+      <created>1726415090770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724053171403</updated>
+      <updated>1726415090770</updated>
     </task>
-    <task id="LOCAL-00001" summary="Navigation test implemeted">
-      <created>1724483866731</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1724483866731</updated>
-    </task>
-    <task id="LOCAL-00002" summary="New hire data upload test implemented">
-      <created>1724565145622</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1724565145622</updated>
-    </task>
-    <task id="LOCAL-00003" summary="New hire data upload test implemented">
-      <option name="closed" value="true" />
-      <created>1726413891596</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1726413891596</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,21 +119,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Navigation test implemeted" />
-    <MESSAGE value="New hire data upload test implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="New hire data upload test implemented" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

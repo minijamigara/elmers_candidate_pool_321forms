@@ -7,7 +7,7 @@ import pages.*;
 public class FormsExecutionTest extends BaseTest {
     @Test
     public void testSuccessfulCreate321AccountTask(){
-        FormsExecution formsExecution = new FormsExecution(driver);
+        FormsExecutionPage formsExecution = new FormsExecutionPage(driver);
         formsExecution.navigateToCreate321Task();
     }
 }

@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FormListTest extends BaseTest {
-    @Test
+    @Test(priority = 1)
     public void VerifyFormList() {
         // Retrieve the array from the config file
         String[] formsArray = ConfigLoader.getArrayProperty("forms");
@@ -25,7 +25,7 @@ public class FormListTest extends BaseTest {
         Assert.assertEquals(actualFormsList, expectedFormsList, "The form lists do not match!");
     }
 
-    @Test
+    @Test(priority = 2)
     public void ClickAgreeButtonTest() {
         // Use the SignInCodePage object
         FormListPage formListPage = new FormListPage(driver);

@@ -5,7 +5,13 @@ import org.testng.annotations.Test;
 import pages.BasicInfoPage;
 
 public class BasicInfoTest extends BaseTest{
-    @Test
+    @Test(priority = 1)
+    public void MiddleNameLengthTest(){
+        BasicInfoPage basicInfoPage = new BasicInfoPage(driver);
+        basicInfoPage.checkMiddleNameLength();
+    }
+
+    @Test(priority = 2)
     public void ClickAgreeButtonTest() {
         // Use the SignInCodePage object
         BasicInfoPage basicInfoPage = new BasicInfoPage(driver);

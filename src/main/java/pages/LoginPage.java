@@ -11,9 +11,9 @@ public class LoginPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
-    private By usernameField = By.id("txtusername");
-    private By passwordField = By.id("pwdpassword");
-    private By loginButton = By.xpath("/html/body/div[1]/div[2]/div/div[2]/div[2]/div/form/button");
+    private By usernameField = By.id("txtUsername");
+    private By passwordField = By.id("txtPassword");
+    private By loginButton = By.xpath("/html/body/div/div/div[1]/div[2]/div/form/div[4]/button");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;

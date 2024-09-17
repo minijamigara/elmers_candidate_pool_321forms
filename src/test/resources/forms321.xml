@@ -9,6 +9,8 @@
             <class name="forms321.employeementDashboard.EmployeementDashboardTest"/>
             <class name="forms321.basicInfo.BasicInfoTest"/>
             <class name="forms321.formList.FormListTest"/>
+            <class name="forms321.generalInfo.GeneralInfoPageTest"/>
+            <class name="forms321.uniformInfo.UniformInfoTest"/>
         </classes>
     </test>
 </suite>

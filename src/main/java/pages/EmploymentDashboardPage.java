@@ -13,7 +13,7 @@ public class EmploymentDashboardPage {
     private WebDriver driver;
     private WebDriverWait wait;
 
-    private By agreeBtn = By.xpath("/html/body/div[2]/div[1]/div/div/div/div/div[3]/span[1]/form");
+    private By agreeBtn = By.xpath("/html/body/div[2]/div[1]/div/div/div/div/div[3]/span[1]/form/input[1]");
 
     public EmploymentDashboardPage(WebDriver driver) {
         this.driver = driver;
